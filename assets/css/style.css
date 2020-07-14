@@ -1,0 +1,11 @@
+#hero{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#P2{
+    display: none;
+}
+

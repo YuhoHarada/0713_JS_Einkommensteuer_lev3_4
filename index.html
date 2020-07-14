@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Einkommensteuer Berechnung</title>
+</head>
+<body>
+    <section id="hero">
+        <h1>Einkommensteuer Berechnung</h1>
+        <form id="target">
+            <div>
+                <input type="radio" name="Jahr" value="2020" checked>2020
+                <input type="radio" name="Jahr" value="2019">2019
+                <input type="radio" name="Jahr" value="2018">2018
+            </div>
+            <div>
+                <input type="radio" name="person" value="person1" onclick="personOne()" checked>1 Person
+                <input type="radio" name="person" value="person2" onclick="personTwo()">2 Person
+            </div>
+            <div>
+                <label for="">1 Person:</label>
+                <input type="number" name="" id="einkommen1">
+            </div>
+            <div id="P2">
+                <label for="">2 Person:</label>
+                <input type="number" name="" id="einkommen2">
+            </div>
+            <input type="button" value="Check" onclick="checkES()">
+        </form>
+        <div id="result"></div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
