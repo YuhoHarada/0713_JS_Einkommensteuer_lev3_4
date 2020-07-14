@@ -1,11 +1,33 @@
+body{
+    color: #333;
+}
+
 #hero{
+    width: 500px;
+    margin: 0 auto;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 0 30px 30px;
 }
 
 #P2{
     display: none;
 }
 
+form{
+    margin-bottom: 30px;
+}
+
+input{
+    margin: 10px;
+    color: #333;
+}
+
+#result{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
