@@ -11,13 +11,18 @@
         <h1>Einkommensteuer Berechnung</h1>
         <form id="target">
             <div>
-                <input type="radio" name="Jahr" value="2020" checked>2020
-                <input type="radio" name="Jahr" value="2019">2019
-                <input type="radio" name="Jahr" value="2018">2018
+                <input type="radio" name="Jahr" id="y20" value="2020" checked>
+                <label for="y20">2020</label>
+                <input type="radio" name="Jahr" id="y19" value="2019">
+                <label for="y19">2019</label>
+                <input type="radio" name="Jahr" id="y18" value="2018">
+                <label for="y18">2018</label>
             </div>
             <div>
-                <input type="radio" name="person" value="person1" onclick="personOne()" checked>1 Person
-                <input type="radio" name="person" value="person2" onclick="personTwo()">2 Person
+                <input type="radio" name="person" id="per1" value="person1" onclick="personOne()" checked>
+                <label for="per1">1 Person</label>
+                <input type="radio" name="person" id="per2" value="person2" onclick="personTwo()">
+                <label for="per2">2 Person</label>
             </div>
             <div>
                 <label for="">1 Person:</label>
