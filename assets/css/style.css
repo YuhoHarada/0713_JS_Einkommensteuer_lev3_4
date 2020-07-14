@@ -23,8 +23,25 @@ form{
 }
 
 input{
-    margin: 10px;
+    margin: 10px 0;
     color: #333;
+}
+
+input[type=radio]{
+    margin: 10px 5px 10px 20px;
+}
+
+input[type=radio]:first-of-type{
+    margin-left: 0;
+}
+
+input[type=button]{
+    background: lightblue;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px #999;
+    padding: 10px 0;
 }
 
 #result{
